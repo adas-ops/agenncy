@@ -60,6 +60,8 @@ TypeScript: Configuration in tsconfig.json.
 
 # Folder Structure
 
+
+
 /
 ├── src/
 │   ├── app/             # Next.js pages/app directory (or route components)
@@ -72,6 +74,13 @@ TypeScript: Configuration in tsconfig.json.
 ├── package.json
 ├── postcss.config.mjs
 └── tsconfig.json
+
+
+
+
+
+
+
 
 # Contributing
 Contributions are welcome! If you’d like to help, feel free to:
