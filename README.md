@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Agenncy
+
+A modern web application built with Next.js and TypeScript. This project provides a solid foundation for building scalable, type-safe, and maintainable user interfaces.
+
+---
+
+## Features
+
+- Built with **Next.js** + **TypeScript** for strong typing and improved developer experience.  
+- Integrated **ESLint** for consistent code style and catching errors early.  
+- Uses **PostCSS** for styling utilities and custom configuration.  
+- Structured `src/` directory to keep code organized.  
+- Ready for local development, and easy to deploy (e.g. Vercel or similar platforms).  
+
+---
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing.
 
-```bash
+### Prerequisites
+
+- Node.js (version 16 or newer recommended)  
+- npm, Yarn, or pnpm (choose your preferred package manager)  
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/adas-ops/agenncy.git
+   cd agenncy
+### Install dependencies:
+
+# using npm
+
+npm install
+
+# or using yarn
+yarn
+
+# or using pnpm
+pnpm install
+
+# To run the development server:
+
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ESLint: Check the file eslint.config.mjs for lint rules.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+PostCSS: See postcss.config.mjs for stylesheet processing configuration.
 
-## Learn More
+TypeScript: Configuration in tsconfig.json.
 
-To learn more about Next.js, take a look at the following resources:
+# Folder Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/
+├── src/
+│   ├── app/             # Next.js pages/app directory (or route components)
+│   ├── components/      # React components
+│   ├── styles/          # CSS / PostCSS styles
+│   └── ...other folders as needed
+├── public/              # static assets
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Contributing
+Contributions are welcome! If you’d like to help, feel free to:
 
-## Deploy on Vercel
+Fork the repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a feature branch (git checkout -b feature-name)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Make your changes & test
+
+Submit a pull request
+
